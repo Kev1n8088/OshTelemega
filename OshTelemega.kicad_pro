@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|20100195|22951670|08f11a18-78c6-434e-bc9c-91b7aa3d5430|cd6d0926-ec70-4be3-adf6-786404615492",
+          ""
+        ],
+        [
+          "copper_edge_clearance|23000000|99875000|3a723506-93c6-43de-b3a1-40686fe95418|a7a43c0f-894d-4056-bf66-d9880d7d0360",
+          ""
+        ],
+        [
+          "copper_edge_clearance|50000000|23000000|38c4da65-6db3-4f29-9522-3edeeb95af65|dda2d18d-ca78-4c0e-b312-4b5235e2593f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|50000000|65500000|38c4da65-6db3-4f29-9522-3edeeb95af65|cb9a9566-9790-4ec5-b2eb-a89ea469af66",
+          ""
+        ],
+        [
+          "copper_edge_clearance|50000000|96950000|38c4da65-6db3-4f29-9522-3edeeb95af65|09ace17a-1b66-4cf3-a7ff-6faad2df98c6",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -137,8 +158,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.12,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.46,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -230,8 +251,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.26
+          "diameter": 0.46,
+          "drill": 0.254
         },
         {
           "diameter": 0.6,

@@ -2525,167 +2525,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -7715,7 +7554,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q32JVSS"
+		(symbol "Memory_Flash:W25Q128JVP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7727,7 +7566,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q32JVSS"
+			(property "Value" "W25Q128JVP"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -7735,7 +7574,34 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7744,7 +7610,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7753,34 +7619,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q32JVSS_0_1"
+			(symbol "W25Q128JVP_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -7793,7 +7632,7 @@
 					)
 				)
 			)
-			(symbol "W25Q32JVSS_1_1"
+			(symbol "W25Q128JVP_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -7931,6 +7770,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12415,7 +12272,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 116.84) (xy 397.51 116.84)
+			(xy 397.51 116.84) (xy 408.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -13895,16 +13752,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 33.02) (xy 347.98 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf59777-3b0e-43b5-a83f-f44286ad272d")
-	)
-	(wire
-		(pts
 			(xy 297.18 242.57) (xy 300.99 242.57)
 		)
 		(stroke
@@ -14455,16 +14302,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 189.23) (xy 388.62 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80fb0cfa-9acc-4711-bc28-1cc7795f4f35")
-	)
-	(wire
-		(pts
 			(xy 76.2 152.4) (xy 87.63 152.4)
 		)
 		(stroke
@@ -14565,16 +14402,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 35.56) (xy 347.98 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8653a706-6b23-4f37-93b0-34a7322ffc6f")
-	)
-	(wire
-		(pts
 			(xy 233.68 260.35) (xy 233.68 259.08)
 		)
 		(stroke
@@ -14612,6 +14439,16 @@
 			(type default)
 		)
 		(uuid "89a8c610-4beb-472b-be05-caebf52aa961")
+	)
+	(wire
+		(pts
+			(xy 397.51 124.46) (xy 407.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa62b03-9cc6-4d73-bc8d-02d4cb9d5232")
 	)
 	(wire
 		(pts
@@ -14772,6 +14609,16 @@
 			(type default)
 		)
 		(uuid "93a74fc1-5a31-403f-9677-40acfa6005fc")
+	)
+	(wire
+		(pts
+			(xy 383.54 33.02) (xy 375.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f9c218-7bf0-479a-bcae-ac81221938da")
 	)
 	(wire
 		(pts
@@ -15075,6 +14922,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 35.56) (xy 375.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54d57f5-10a1-4ae2-aff5-6859cfc92c86")
+	)
+	(wire
+		(pts
 			(xy 330.2 106.68) (xy 330.2 104.14)
 		)
 		(stroke
@@ -15275,13 +15132,13 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 189.23) (xy 393.7 190.5)
+			(xy 374.65 121.92) (xy 384.81 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aed0e43a-c19c-4ed3-923a-bf57c21ec391")
+		(uuid "af2ab157-558f-4579-9ad8-2708ed63a40a")
 	)
 	(wire
 		(pts
@@ -15532,16 +15389,6 @@
 			(type default)
 		)
 		(uuid "b67874c7-9147-48c5-aff7-2825483eed29")
-	)
-	(wire
-		(pts
-			(xy 407.67 124.46) (xy 397.51 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ae7db5-b9d1-4dba-809d-0c22c3bf8e81")
 	)
 	(wire
 		(pts
@@ -15812,6 +15659,16 @@
 			(type default)
 		)
 		(uuid "c20dabef-0007-4769-a666-4ff3e6635d61")
+	)
+	(wire
+		(pts
+			(xy 340.36 33.02) (xy 347.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c222bbba-7920-463f-8ee4-24e8ea9fc57f")
 	)
 	(polyline
 		(pts
@@ -16182,16 +16039,6 @@
 			(type default)
 		)
 		(uuid "d4e2ab47-d108-48ca-9058-51b5f71af4bc")
-	)
-	(wire
-		(pts
-			(xy 383.54 35.56) (xy 375.92 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52ca512-486a-4f2f-997a-1ad9df326040")
 	)
 	(wire
 		(pts
@@ -16575,16 +16422,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 33.02) (xy 375.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e864490a-62e5-4d46-abff-168994c3c4cb")
-	)
-	(wire
-		(pts
 			(xy 181.61 265.43) (xy 184.15 265.43)
 		)
 		(stroke
@@ -16632,16 +16469,6 @@
 			(type default)
 		)
 		(uuid "eb67f38b-7341-47e5-9c0d-eb5cc6870830")
-	)
-	(wire
-		(pts
-			(xy 374.65 121.92) (xy 384.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0449fb-4991-406c-9171-4a60dcce6abb")
 	)
 	(wire
 		(pts
@@ -17065,6 +16892,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 35.56) (xy 347.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff921444-8abe-4c38-bfad-d473cc16da0a")
+	)
+	(wire
+		(pts
 			(xy 241.3 194.31) (xy 245.11 194.31)
 		)
 		(stroke
@@ -17142,16 +16979,6 @@
 			(justify left bottom)
 		)
 		(uuid "06330171-500b-4944-bd56-95d34ff98a83")
-	)
-	(label "CS_COMP1"
-		(at 407.67 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09e16e08-125d-4a4a-b24d-8cf9b7752522")
 	)
 	(label "FIRE_E"
 		(at 173.99 265.43 90)
@@ -17303,16 +17130,6 @@
 		)
 		(uuid "2787b217-88c7-4d42-887c-5af37b820c91")
 	)
-	(label "PWM_D"
-		(at 383.54 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2788a178-1860-4e41-ba89-aa2e48abd30f")
-	)
 	(label "SWCLK"
 		(at 77.47 88.9 0)
 		(effects
@@ -17373,7 +17190,7 @@
 		)
 		(uuid "30acc0c6-e2c6-4b16-8aee-a9402da64911")
 	)
-	(label "FIRE_C"
+	(label "FIRE_D"
 		(at 172.72 200.66 90)
 		(effects
 			(font
@@ -17393,17 +17210,7 @@
 		)
 		(uuid "31cf92ed-49b8-48f5-bf5d-97b520963295")
 	)
-	(label "MOSI2"
-		(at 375.92 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32da39bb-5441-431c-8fd4-2582f1f86550")
-	)
-	(label "NRST"
+	(label "SWCLK"
 		(at 325.12 52.07 0)
 		(effects
 			(font
@@ -17563,7 +17370,7 @@
 		)
 		(uuid "44c8b2a8-9f87-4119-ade7-e3e2c7c87bbf")
 	)
-	(label "FET_D"
+	(label "FET_C"
 		(at 240.03 191.77 0)
 		(effects
 			(font
@@ -17613,7 +17420,7 @@
 		)
 		(uuid "4b18bd61-8549-4aee-8d1a-f6263a12f2f1")
 	)
-	(label "SWCLK"
+	(label "NRST"
 		(at 342.9 49.53 0)
 		(effects
 			(font
@@ -17682,16 +17489,6 @@
 			(justify left bottom)
 		)
 		(uuid "51a2380b-3dc9-4e50-82cc-e4e37c7143a0")
-	)
-	(label "PWM_B"
-		(at 340.36 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5202478e-e210-450f-9945-e30f9e4916af")
 	)
 	(label "PH0"
 		(at 24.13 210.82 0)
@@ -17803,16 +17600,6 @@
 		)
 		(uuid "5fc5d32f-e8a6-4e09-a02a-a00c7f18f887")
 	)
-	(label "PWM_C"
-		(at 383.54 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "606555a5-53e0-445d-9ced-221318b50fe6")
-	)
 	(label "PWM_B"
 		(at 17.78 157.48 0)
 		(effects
@@ -17842,6 +17629,16 @@
 			(justify left bottom)
 		)
 		(uuid "62a918e4-dee7-4e8f-87cf-f661290ae10f")
+	)
+	(label "CS_COMP0"
+		(at 408.94 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69bd6814-de28-4ef6-afaa-3fec052d3793")
 	)
 	(label "IMU_ACCEL_INT"
 		(at 212.09 39.37 0)
@@ -17993,6 +17790,16 @@
 		)
 		(uuid "7b0e5821-5021-4ddd-a9a1-16be6fd80545")
 	)
+	(label "PWM_A"
+		(at 340.36 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5cd6cd-597b-4c2f-adde-615f1b83c31b")
+	)
 	(label "BA_MOSI1"
 		(at 77.47 71.12 0)
 		(effects
@@ -18012,6 +17819,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d4ddcc0-9309-40e9-a2fb-5775d95e549c")
+	)
+	(label "PWM_C"
+		(at 340.36 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f250ccb-476a-48dd-b2dd-a96a9d4c14f2")
 	)
 	(label "GATE_A"
 		(at 182.88 132.08 90)
@@ -18173,16 +17990,6 @@
 		)
 		(uuid "9fc21caf-bd99-4a05-9f5c-55e8ac3f44e9")
 	)
-	(label "PWM_A"
-		(at 340.36 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0927513-ec4b-4a3b-902e-d2f3063131fb")
-	)
 	(label "SCK2"
 		(at 77.47 129.54 0)
 		(effects
@@ -18222,6 +18029,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac279576-a1c3-4612-a006-a5e10027d948")
+	)
+	(label "MOSI2"
+		(at 398.78 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad53427c-fd84-4e19-86d0-f01697cc7fbb")
 	)
 	(label "PA"
 		(at 325.12 142.24 0)
@@ -18273,7 +18090,7 @@
 		)
 		(uuid "b4fbe5d2-8d8e-4e39-bc86-4c7e1d3e8dfc")
 	)
-	(label "GATE_C"
+	(label "GATE_D"
 		(at 182.88 200.66 90)
 		(effects
 			(font
@@ -18333,7 +18150,7 @@
 		)
 		(uuid "baf079a4-684b-4499-835b-95a0966f3838")
 	)
-	(label "GATE_E"
+	(label "GATE_F"
 		(at 172.72 229.87 0)
 		(effects
 			(font
@@ -18342,16 +18159,6 @@
 			(justify left bottom)
 		)
 		(uuid "baf5260c-e69e-42a8-8c8a-e1ecf1825da6")
-	)
-	(label "BUZZ"
-		(at 378.46 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb1522ba-f83e-4d7c-9304-753ebf03a6c2")
 	)
 	(label "GATE_B"
 		(at 224.79 132.08 90)
@@ -18373,7 +18180,7 @@
 		)
 		(uuid "bb6d8b7d-73b1-4949-b4bb-134d81a16c92")
 	)
-	(label "CS_COMP0"
+	(label "CS_COMP1"
 		(at 407.67 121.92 180)
 		(effects
 			(font
@@ -18393,7 +18200,7 @@
 		)
 		(uuid "be4c7672-2660-4af6-8e70-0edfe6c45588")
 	)
-	(label "GATE_F"
+	(label "GATE_E"
 		(at 226.06 234.95 0)
 		(effects
 			(font
@@ -18413,6 +18220,16 @@
 		)
 		(uuid "bfa3ed1f-b1c3-4032-b6c5-acef861331f7")
 	)
+	(label "PWM_D"
+		(at 383.54 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfd541d9-fdcc-40e5-b552-0f299826ce57")
+	)
 	(label "CS_COMP1"
 		(at 77.47 114.3 0)
 		(effects
@@ -18422,6 +18239,16 @@
 			(justify left bottom)
 		)
 		(uuid "bfeb8b4d-03ad-46dd-833f-efb5f3b51482")
+	)
+	(label "PWM_B"
+		(at 383.54 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2d4be00-06c3-4547-869c-74dd6f6f2ec1")
 	)
 	(label "MOSI1"
 		(at 16.51 119.38 0)
@@ -18453,7 +18280,7 @@
 		)
 		(uuid "c59f19da-64ce-402d-adba-d6c8a0f1eb68")
 	)
-	(label "FIRE_D"
+	(label "FIRE_C"
 		(at 214.63 200.66 90)
 		(effects
 			(font
@@ -18673,7 +18500,7 @@
 		)
 		(uuid "e6a9e8dd-4d8c-4ff8-ba8c-da391d46ddcd")
 	)
-	(label "FET_C"
+	(label "FET_D"
 		(at 198.12 191.77 0)
 		(effects
 			(font
@@ -18703,7 +18530,7 @@
 		)
 		(uuid "eae9f481-9a0d-4fc1-8a2a-811332f6bb16")
 	)
-	(label "GATE_D"
+	(label "GATE_C"
 		(at 224.79 200.66 90)
 		(effects
 			(font
@@ -18743,7 +18570,7 @@
 		)
 		(uuid "eebb0f30-deb1-4817-820c-98b8785c3c2b")
 	)
-	(label "SENSE_D"
+	(label "SENSE_C"
 		(at 240.03 194.31 0)
 		(effects
 			(font
@@ -18793,7 +18620,7 @@
 		)
 		(uuid "f640cdb1-24dd-4944-b3d6-90195a4c3334")
 	)
-	(label "SENSE_C"
+	(label "SENSE_D"
 		(at 198.12 194.31 0)
 		(effects
 			(font
@@ -18994,6 +18821,73 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008ae3e0-2442-4a88-bf6e-124287a4e063")
+		(property "Reference" "H5"
+			(at 118.11 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 115.57 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df42df1-af26-4dda-b5b3-bf1fff172810")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -20115,118 +20009,6 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 31.75 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11acc2d9-fdd5-4fa0-bb40-d1a24b21bf53")
-		(property "Reference" "J1"
-			(at 41.656 273.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 48.768 275.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 35.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 35.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 31.75 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "edb9674e-0b7a-40ff-909e-57148d2cdc23")
-		)
-		(pin "A6"
-			(uuid "fc98b98d-29a7-4607-a9e3-6b14343f0635")
-		)
-		(pin "A1"
-			(uuid "117bb72a-df05-413a-b701-dd651b480722")
-		)
-		(pin "B9"
-			(uuid "ee4c242a-12ca-4a8f-8cd0-bc4a9633e7ab")
-		)
-		(pin "A12"
-			(uuid "3aa4d0f4-1f7f-48b9-bf06-33f428fb2891")
-		)
-		(pin "A7"
-			(uuid "bc09ebc4-b7d4-400b-a1b5-abe5a5b96dbd")
-		)
-		(pin "A4"
-			(uuid "5f6657b6-73ef-465a-9579-391679776284")
-		)
-		(pin "A5"
-			(uuid "17f29b6c-9389-4258-8897-b262e1bccfe4")
-		)
-		(pin "B7"
-			(uuid "9b0b1523-5c7c-46f2-8cf9-05805166e537")
-		)
-		(pin "B1"
-			(uuid "521cf666-d57b-4da4-beaa-b069687f0b56")
-		)
-		(pin "B5"
-			(uuid "9e334950-1bb3-49e4-81c5-e0512d57452d")
-		)
-		(pin "B12"
-			(uuid "fe1a0914-90d0-4baf-90cc-6a941fb04eb6")
-		)
-		(pin "S1"
-			(uuid "a0274088-1afd-436c-844b-7e939024f7e7")
-		)
-		(pin "A9"
-			(uuid "5dd4c998-5e9d-456d-9b2b-617633115fc2")
-		)
-		(pin "B6"
-			(uuid "4f3b9eb9-5471-4b6f-a57a-bf9c3fba0565")
-		)
-		(pin "A8"
-			(uuid "df2e1c3c-b07d-4f40-a9ad-070c56a606d9")
-		)
-		(pin "B8"
-			(uuid "3cf4d947-48b5-415d-8aa6-194a76ad26f4")
-		)
-		(instances
-			(project ""
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -22188,7 +21970,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 351.79 35.56 90)
+		(at 372.11 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22196,15 +21978,16 @@
 		(dnp no)
 		(uuid "2a697a34-f017-4ec4-8ea0-a152859750c1")
 		(property "Reference" "R6"
-			(at 351.79 33.274 90)
+			(at 372.11 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "220"
-			(at 351.79 35.56 90)
+			(at 372.11 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22212,7 +21995,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 351.79 37.338 90)
+			(at 372.11 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22221,7 +22004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22230,7 +22013,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 351.79 35.56 0)
+			(at 372.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23338,7 +23121,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "385be7f8-09a6-457e-9e99-825e6c9667c4")
 		(property "Reference" "#PWR036"
 			(at 132.08 226.06 0)
@@ -23350,7 +23132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 224.79 0)
+			(at 128.524 221.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24294,7 +24076,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at -17.78 185.42 0)
+		(at 31.75 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24303,7 +24085,7 @@
 		(fields_autoplaced yes)
 		(uuid "46158917-4aa0-47f5-822b-893ef80f8053")
 		(property "Reference" "J4"
-			(at -17.78 162.56 0)
+			(at 31.75 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24311,7 +24093,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at -17.78 165.1 0)
+			(at 31.75 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24319,7 +24101,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
-			(at -13.97 185.42 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24328,7 +24110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at -13.97 185.42 0)
+			(at 35.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24337,7 +24119,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at -17.78 185.42 0)
+			(at 31.75 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26806,94 +26588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q32JVSS")
-		(at 132.08 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a254df0-ebba-4516-bf03-edee7f0fb107")
-		(property "Reference" "U7"
-			(at 143.51 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q64JVXGIQ"
-			(at 143.51 208.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FCU2025Lib:DFN_XGIQ TR_WIN"
-			(at 132.08 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
-			(at 132.08 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
-			(at 132.08 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "1f317891-b9f9-44da-9e82-5cb40fec17d0")
-		)
-		(pin "5"
-			(uuid "d462cf07-a4f7-4ef3-afa9-87e6529a98f5")
-		)
-		(pin "1"
-			(uuid "274b6ecc-3d25-42ac-a05a-ecf5f0f9cd73")
-		)
-		(pin "2"
-			(uuid "e2a2f8d2-f730-47eb-a2e8-bf682cf6660a")
-		)
-		(pin "4"
-			(uuid "836e42a2-2363-4720-b7d8-f68459cc48dd")
-		)
-		(pin "8"
-			(uuid "0a199534-0d3b-4f9d-8d97-b0feede557be")
-		)
-		(pin "3"
-			(uuid "4fb123aa-4240-46b6-b1f0-99437589266e")
-		)
-		(pin "6"
-			(uuid "e0750690-8008-4123-ab97-c1490f0592f5")
-		)
-		(instances
-			(project ""
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 199.39 198.12 180)
 		(unit 1)
@@ -27087,6 +26781,71 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f7bbb19-ea31-4779-9aaa-6c4f141e5271")
+		(property "Reference" "#PWR0121"
+			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 221.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2d8870-c1bd-4dab-a731-33893ea86cd3")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -27624,71 +27383,6 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 393.7 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79050b74-bbb1-48b1-89a3-15e779d29d19")
-		(property "Reference" "#PWR0132"
-			(at 393.7 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 391.16 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c166e015-72c8-439e-8e16-e1f53f3e1576")
-		)
-		(instances
-			(project "OshTelemega"
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -29214,7 +28908,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 398.78 116.84 0)
+		(at 374.65 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29222,7 +28916,7 @@
 		(dnp no)
 		(uuid "8d8fa508-a7bc-4a99-b1ee-0e4b2c011d10")
 		(property "Reference" "#PWR0124"
-			(at 398.78 120.65 0)
+			(at 374.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29231,7 +28925,7 @@
 			)
 		)
 		(property "Value" "V_LIPO"
-			(at 403.606 115.824 0)
+			(at 379.476 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29239,7 +28933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 116.84 0)
+			(at 374.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29248,7 +28942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 116.84 0)
+			(at 374.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29257,7 +28951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 398.78 116.84 0)
+			(at 374.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29338,76 +29032,6 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 391.16 186.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9112496a-fcef-467e-ab5d-1064de298ea6")
-		(property "Reference" "BZ1"
-			(at 394.97 184.6648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 394.97 187.2048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 388.62 187.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 388.62 187.325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 391.16 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58c3a6e5-ef8b-4e6b-8dde-9f8538e88616")
-		)
-		(pin "2"
-			(uuid "919065b4-679d-42ec-97cb-08571307c0c8")
-		)
-		(instances
-			(project ""
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -31523,7 +31147,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 372.11 35.56 270)
+		(at 351.79 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31531,7 +31155,7 @@
 		(dnp no)
 		(uuid "a85e713b-cb1b-4281-b791-d5bf2ff508fa")
 		(property "Reference" "R7"
-			(at 372.11 37.846 90)
+			(at 351.79 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31540,7 +31164,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 372.11 35.56 90)
+			(at 351.79 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31548,7 +31172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 372.11 33.782 90)
+			(at 351.79 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31557,7 +31181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 35.56 0)
+			(at 351.79 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31566,7 +31190,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 372.11 35.56 0)
+			(at 351.79 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33174,6 +32798,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVP")
+		(at 132.08 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb278cc4-a860-436c-84c3-77017045c609")
+		(property "Reference" "U19"
+			(at 143.51 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q64JVXGIQ"
+			(at 143.51 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FCU2025Lib:DFN_XGIQ TR_WIN"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 132.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37b6a5f0-c988-4002-8b56-5528ce6567fd")
+		)
+		(pin "1"
+			(uuid "8b3988fa-d201-4a19-9223-4fb4e3625ebd")
+		)
+		(pin "8"
+			(uuid "bcfc1b59-d0d4-404f-ab74-d35787b1eaf9")
+		)
+		(pin "9"
+			(uuid "2f79d2df-3d4f-4fc6-9b9d-f5473ce870be")
+		)
+		(pin "7"
+			(uuid "5de09886-7c13-4d40-bcce-30b2df0e360a")
+		)
+		(pin "5"
+			(uuid "e8527334-20e3-4985-af3e-909cd4926868")
+		)
+		(pin "4"
+			(uuid "c3b43eb7-4d11-461c-86cd-3f276451b95d")
+		)
+		(pin "6"
+			(uuid "09a04baa-c9c8-490a-a088-06140ff0773b")
+		)
+		(pin "3"
+			(uuid "c7264a65-bac5-4b72-b470-f0056eca1bd2")
+		)
+		(instances
+			(project ""
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 389.89 222.25 180)
 		(unit 1)
@@ -34115,7 +33830,7 @@
 		(dnp no)
 		(uuid "cc783ec8-86a4-4532-9088-5fd3befdab8e")
 		(property "Reference" "R5"
-			(at 351.79 30.734 90)
+			(at 351.282 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35543,6 +35258,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "220"
@@ -35656,6 +35372,72 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02f06c7-7cfd-475a-8748-0599a95ec1b0")
+		(property "Reference" "#PWR0125"
+			(at 115.57 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf25a4a-a897-459a-a078-230aa2f86bb4")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
