@@ -1,4 +1,4 @@
-26265846858115830
+26267606888292705
 AdafruitBreakouts
 BMP390_Breakout_Footprint
 
@@ -59716,6 +59716,13 @@ W25Q64JVXGIQ TR
 0
 9
 9
+FCU2025Lib
+DualLED0606
+
+
+0
+4
+4
 FCU2025Lib
 IMU Indicator
 

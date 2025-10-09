@@ -22688,7 +22688,7 @@
 				)
 			)
 		)
-		(property "Value" "ECS-160-8-36Q-AES-TR"
+		(property "Value" "ECS-160-8-36Q-AES-TR1"
 			(at 46.99 206.9398 0)
 			(effects
 				(font
@@ -28034,7 +28034,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f3b94b9-6750-4650-b54c-6cccc996523a")
 		(property "Reference" "Q1"
 			(at 345.44 212.09 90)
@@ -37225,13 +37224,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:SiA449DJ")
-		(at 439.42 280.67 90)
+		(at 439.42 280.67 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d17ffed4-2ef0-4e31-a8f8-cbbb8b2b0bbf")
 		(property "Reference" "Q3"
 			(at 439.42 271.78 90)
@@ -37250,7 +37249,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
-			(at 441.325 275.59 0)
+			(at 437.515 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37261,7 +37260,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/62644/sia449dj.pdf"
-			(at 443.23 275.59 0)
+			(at 435.61 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
