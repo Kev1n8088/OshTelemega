@@ -12764,12 +12764,6 @@
 		(uuid "a579cfc3-297d-4f5f-bacc-6ce00776ecea")
 	)
 	(junction
-		(at 400.05 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a61f968d-6862-4f62-9658-3d9fbd835435")
-	)
-	(junction
 		(at 435.61 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13530,6 +13524,16 @@
 			(type default)
 		)
 		(uuid "11490295-53c6-4480-a285-c25c5dcb6e28")
+	)
+	(wire
+		(pts
+			(xy 431.8 173.99) (xy 427.99 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11733e4f-90af-4623-a373-f667b671de96")
 	)
 	(wire
 		(pts
@@ -15023,7 +15027,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 173.99) (xy 400.05 173.99)
+			(xy 397.51 173.99) (xy 417.83 173.99)
 		)
 		(stroke
 			(width 0)
@@ -16643,7 +16647,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 168.91) (xy 402.59 168.91)
+			(xy 397.51 168.91) (xy 412.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -17883,7 +17887,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 171.45) (xy 400.05 171.45)
+			(xy 397.51 171.45) (xy 402.59 171.45)
 		)
 		(stroke
 			(width 0)
@@ -18130,6 +18134,16 @@
 			(type default)
 		)
 		(uuid "ef3e159c-cb8a-46ef-9850-2b863e1d274a")
+	)
+	(wire
+		(pts
+			(xy 431.8 172.72) (xy 431.8 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5e6896-fe41-4c25-a679-78b1898446f5")
 	)
 	(wire
 		(pts
@@ -18420,16 +18434,6 @@
 			(type default)
 		)
 		(uuid "fa1f120c-e1ca-4978-a4dd-f1691c62b2a4")
-	)
-	(wire
-		(pts
-			(xy 400.05 171.45) (xy 400.05 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa314b22-53a8-4e78-a8a8-2af069b80ac2")
 	)
 	(wire
 		(pts
@@ -24154,6 +24158,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 431.8 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d0f5932-06cb-4fca-8ea9-8dc1876b9c14")
+		(property "Reference" "#PWR0150"
+			(at 431.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_PYRO"
+			(at 436.88 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 431.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 431.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 431.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e899a86-f64b-440d-ab57-470aaf0df4f0")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FCU2025:LM293QT")
 		(at 184.15 165.1 0)
 		(unit 1)
@@ -27299,6 +27368,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 422.91 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51b30eaa-f86a-4a6a-ac1c-cabe9ff9afce")
+		(property "Reference" "#PWR0149"
+			(at 422.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 422.91 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 422.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 422.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 422.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f98792-c848-4fe5-a6a6-a42f0974d7d7")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28450,7 +28584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 400.05 173.99 0)
+		(at 412.75 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28458,7 +28592,7 @@
 		(dnp no)
 		(uuid "63748d3b-f657-4ca4-8b57-2214151c6d75")
 		(property "Reference" "#PWR0128"
-			(at 400.05 180.34 0)
+			(at 412.75 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28467,7 +28601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 395.732 175.514 0)
+			(at 413.258 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28475,7 +28609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 400.05 173.99 0)
+			(at 412.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28484,7 +28618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 173.99 0)
+			(at 412.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28493,7 +28627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 400.05 173.99 0)
+			(at 412.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29583,6 +29717,73 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 422.91 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "784bf2b7-cb91-48aa-a65b-a3259b60f9a0")
+		(property "Reference" "R55"
+			(at 425.45 185.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 422.91 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 424.688 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 422.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aedfe57-fff7-42ce-8f43-75be554ccea5")
+		)
+		(pin "2"
+			(uuid "fb5ece1d-6572-45ff-9e5e-0dec93c19e2e")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -36669,6 +36870,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:SiA449DJ")
+		(at 422.91 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cabe0aa5-a697-434a-a814-f4949d3b4bca")
+		(property "Reference" "Q4"
+			(at 422.91 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiA449DJ"
+			(at 422.91 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+			(at 424.815 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/62644/sia449dj.pdf"
+			(at 426.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6"
+			(at 422.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d8352c6a-1c17-405b-84ef-cbcadc9b9743")
+		)
+		(pin "3"
+			(uuid "f6c6c6e1-cc6b-4dc2-aa47-0b1db4dc5b71")
+		)
+		(pin "1"
+			(uuid "fe89dc09-bf0a-44d4-a4ef-78934ddf982e")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G80")
 		(at 375.92 307.34 0)
 		(unit 1)
@@ -41339,7 +41613,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 402.59 168.91 0)
+		(at 402.59 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41347,7 +41621,7 @@
 		(dnp no)
 		(uuid "fd699727-69f7-45f2-8291-cf18af70da03")
 		(property "Reference" "#PWR0126"
-			(at 402.59 172.72 0)
+			(at 402.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41356,7 +41630,7 @@
 			)
 		)
 		(property "Value" "V_LIPO"
-			(at 407.162 167.894 0)
+			(at 407.162 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41364,7 +41638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 402.59 168.91 0)
+			(at 402.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41373,7 +41647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 168.91 0)
+			(at 402.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41382,7 +41656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 402.59 168.91 0)
+			(at 402.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
