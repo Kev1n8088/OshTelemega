@@ -12500,12 +12500,6 @@
 		(uuid "454c8bda-fbbe-4810-9027-0fc616bbd8d2")
 	)
 	(junction
-		(at 353.06 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4749af0c-d912-4446-ba91-ca70cff85767")
-	)
-	(junction
 		(at 180.34 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12848,12 +12842,6 @@
 		(uuid "b65771a1-125f-4a87-a8dd-b67b7c685aa1")
 	)
 	(junction
-		(at 292.1 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6f1cb4a-3e2b-4e0a-a2af-2e306c5f6fc0")
-	)
-	(junction
 		(at 406.4 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12900,6 +12888,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c241461f-3a09-4f2f-ae64-cc42b0aacc45")
+	)
+	(junction
+		(at 294.64 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c267b46e-ac63-49fe-9ae4-685043997b28")
 	)
 	(junction
 		(at 330.2 109.22)
@@ -12966,6 +12960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddca1f4e-6a75-48ed-903f-3f3a2ea8280d")
+	)
+	(junction
+		(at 353.06 356.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de151533-a0e4-44d1-9540-b5afe7f8aba9")
 	)
 	(junction
 		(at 337.82 322.58)
@@ -13203,6 +13203,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 233.68) (xy 294.64 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0062ab7b-b9a5-404d-9179-939075872b64")
+	)
+	(wire
+		(pts
 			(xy 397.51 190.5) (xy 406.4 190.5)
 		)
 		(stroke
@@ -13290,6 +13300,16 @@
 			(type default)
 		)
 		(uuid "053d3b83-904b-45a5-a584-8d7eafbe2dd6")
+	)
+	(wire
+		(pts
+			(xy 294.64 223.52) (xy 294.64 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f6be55-d35f-49b5-b151-f789efe0af3b")
 	)
 	(wire
 		(pts
@@ -13943,13 +13963,23 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 223.52) (xy 292.1 223.52)
+			(xy 289.56 223.52) (xy 294.64 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29196961-0568-47dc-9ac9-a12d775cec57")
+	)
+	(wire
+		(pts
+			(xy 294.64 237.49) (xy 297.18 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296f5df9-7358-450c-b5ba-97f60a44240f")
 	)
 	(wire
 		(pts
@@ -14190,6 +14220,16 @@
 			(type default)
 		)
 		(uuid "31b58d73-1aed-4b65-b9b2-bb365bce65a5")
+	)
+	(wire
+		(pts
+			(xy 292.1 252.73) (xy 284.48 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322ca4fd-8a64-4460-9ecf-15ff2f47b454")
 	)
 	(wire
 		(pts
@@ -14623,16 +14663,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 226.06) (xy 300.99 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cf139e-50e2-47a8-89ad-18dcd93ad97e")
-	)
-	(wire
-		(pts
 			(xy 142.24 50.8) (xy 152.4 50.8)
 		)
 		(stroke
@@ -14740,6 +14770,16 @@
 			(type default)
 		)
 		(uuid "4d667825-4086-48e6-84dd-4fc3feef9b22")
+	)
+	(wire
+		(pts
+			(xy 284.48 252.73) (xy 284.48 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebb9ffd-d54c-45ae-9d78-e1421b91d861")
 	)
 	(polyline
 		(pts
@@ -15023,16 +15063,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 242.57) (xy 300.99 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d00cfbc-2ef7-4275-912f-5d2c011e8ce6")
-	)
-	(wire
-		(pts
 			(xy 172.72 132.08) (xy 172.72 133.35)
 		)
 		(stroke
@@ -15130,6 +15160,16 @@
 			(type default)
 		)
 		(uuid "6139ac18-ecab-435c-9b47-7d6bc36083b9")
+	)
+	(wire
+		(pts
+			(xy 297.18 227.33) (xy 292.1 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a0c204-b709-4957-87d1-06a7dafcd653")
 	)
 	(wire
 		(pts
@@ -15640,6 +15680,16 @@
 			(type default)
 		)
 		(uuid "818bd838-c8ab-4dae-a1dc-deac2fa4f8dd")
+	)
+	(wire
+		(pts
+			(xy 284.48 233.68) (xy 294.64 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8220c2e0-c2e5-4ec8-9191-a477879d6450")
 	)
 	(wire
 		(pts
@@ -16393,6 +16443,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 227.33) (xy 292.1 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaee79d6-8f64-43e8-9523-fe591686351d")
+	)
+	(wire
+		(pts
 			(xy 186.69 52.07) (xy 182.88 52.07)
 		)
 		(stroke
@@ -16580,16 +16640,6 @@
 			(type default)
 		)
 		(uuid "b0e5a5d9-a8d6-4987-b75b-cd0a8abaf3a0")
-	)
-	(wire
-		(pts
-			(xy 300.99 226.06) (xy 300.99 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10b590d-adb6-4abd-99a4-e894ef1cd62c")
 	)
 	(wire
 		(pts
@@ -16840,16 +16890,6 @@
 			(type default)
 		)
 		(uuid "b7a6fc8e-ba52-478e-b43c-11a26abe32f3")
-	)
-	(wire
-		(pts
-			(xy 292.1 226.06) (xy 292.1 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e6c715-e993-40c1-ad0a-3061e0d85f32")
 	)
 	(wire
 		(pts
@@ -18080,16 +18120,6 @@
 			(type default)
 		)
 		(uuid "ee659058-82b2-4c67-901d-7daf7e4e76c1")
-	)
-	(wire
-		(pts
-			(xy 292.1 223.52) (xy 292.1 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9223bb-a7c1-4980-98b6-16be5a81922f")
 	)
 	(wire
 		(pts
@@ -22462,81 +22492,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
-		(at 294.64 234.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18c1962c-f413-47cb-af4c-1cbecc830231")
-		(property "Reference" "D4"
-			(at 276.606 239.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_Dual_AAKK"
-			(at 276.606 241.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C19HE1WT"
-			(at 294.64 235.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 235.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
-			(at 294.64 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59cfc8b1-f59f-4562-b695-84530fc6b27e")
-		)
-		(pin "2"
-			(uuid "0cd75fbc-3bad-453d-9636-5ba6dd813870")
-		)
-		(pin "3"
-			(uuid "9599b1d8-def7-46bf-9e4a-3675b54c9a92")
-		)
-		(pin "4"
-			(uuid "0a35ea2e-8025-4664-a914-4bab72c1ed35")
-		)
-		(instances
-			(project "OshTelemega"
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FCU2025:MMC5983MA")
 		(at 129.54 157.48 0)
 		(unit 1)
@@ -22725,7 +22680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc5243f-c9b9-4825-b9dc-ec96f84d661c")
-		(property "Reference" "ECS-160-8-36Q-AES-TR1"
+		(property "Reference" "X2"
 			(at 46.99 204.3998 0)
 			(effects
 				(font
@@ -22733,7 +22688,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "ECS-160-8-36Q-AES-TR"
 			(at 46.99 206.9398 0)
 			(effects
 				(font
@@ -22783,7 +22738,7 @@
 		(instances
 			(project ""
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "ECS-160-8-36Q-AES-TR1")
+					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -23250,6 +23205,81 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 294.64 245.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2350e6bb-c4dd-4976-a867-cba90ce27cca")
+		(property "Reference" "D4"
+			(at 276.606 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Dual_AAKK"
+			(at 276.606 251.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FCU2025Lib:DualLED0606"
+			(at 294.64 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 294.64 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8406c70c-1e5e-4cbf-850d-951ddfe18bdc")
+		)
+		(pin "2"
+			(uuid "0bb633e7-08da-4f56-b394-fb88b35a892b")
+		)
+		(pin "3"
+			(uuid "3bb60332-ce57-41d3-9b97-9081ea489de9")
+		)
+		(pin "4"
+			(uuid "91268080-a01a-4165-a6ec-f01e1c00a421")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -29012,6 +29042,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 350.52 349.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70548c35-150f-467e-8ed7-88cd42234ebd")
+		(property "Reference" "D5"
+			(at 332.486 353.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Dual_AAKK"
+			(at 332.486 356.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FCU2025Lib:DualLED0606"
+			(at 350.52 350.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 350.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 350.52 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c862a3-e3fe-4cef-b9b2-95977c545d7a")
+		)
+		(pin "2"
+			(uuid "e9914281-37da-466a-9e26-fc41fa12c70d")
+		)
+		(pin "3"
+			(uuid "e71f6bfa-db68-488e-bcca-4502ec72e74b")
+		)
+		(pin "4"
+			(uuid "dbe770f2-2194-42d1-97ed-069911b3d331")
+		)
+		(instances
+			(project "OshTelemega"
+				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 309.88 49.53 0)
 		(unit 1)
@@ -30321,7 +30426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 292.1 250.19 0)
+		(at 297.18 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30329,7 +30434,7 @@
 		(dnp no)
 		(uuid "81182a4a-96db-4482-a182-9b49ef34fffd")
 		(property "Reference" "#PWR088"
-			(at 292.1 256.54 0)
+			(at 297.18 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30338,7 +30443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 255.27 0)
+			(at 297.18 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30346,7 +30451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 250.19 0)
+			(at 297.18 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30355,7 +30460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 250.19 0)
+			(at 297.18 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30364,7 +30469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 250.19 0)
+			(at 297.18 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34657,7 +34762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C19HE1WT"
+		(property "Footprint" "FCU2025Lib:DualLED0606"
 			(at 95.25 181.102 0)
 			(effects
 				(font
@@ -37053,7 +37158,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 292.1 246.38 180)
+		(at 297.18 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37061,7 +37166,7 @@
 		(dnp no)
 		(uuid "d1395330-4020-403c-aa63-db5de2c7c899")
 		(property "Reference" "R38"
-			(at 294.64 246.634 90)
+			(at 299.72 256.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37069,7 +37174,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 292.1 246.38 90)
+			(at 297.18 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37077,7 +37182,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 293.878 246.38 90)
+			(at 298.958 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37086,7 +37191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 246.38 0)
+			(at 297.18 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37095,7 +37200,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 292.1 246.38 0)
+			(at 297.18 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39753,81 +39858,6 @@
 			(project "OshTelemega"
 				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AAKK")
-		(at 350.52 349.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f15d4b31-a814-43a2-b85d-810d4168c70a")
-		(property "Reference" "D5"
-			(at 332.486 353.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_Dual_AAKK"
-			(at 332.486 356.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C19HE1WT"
-			(at 350.52 350.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 350.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, cathodes on pins 3 and 4"
-			(at 350.52 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afc056a5-4188-485d-9957-f958bb0f2aaf")
-		)
-		(pin "2"
-			(uuid "35317915-72cd-4934-b6c8-f6caab89d0bc")
-		)
-		(pin "3"
-			(uuid "a8c7b49a-b852-41e0-b697-d498c720d66b")
-		)
-		(pin "4"
-			(uuid "bc19eb06-b429-471c-a1c9-a43017028546")
-		)
-		(instances
-			(project "OshTelemega"
-				(path "/c4c04466-81e8-4342-ae94-7b21b0ce87e3"
-					(reference "D5")
 					(unit 1)
 				)
 			)
