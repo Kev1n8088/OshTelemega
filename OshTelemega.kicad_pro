@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.18
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -60,23 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|20100195|22951670|08f11a18-78c6-434e-bc9c-91b7aa3d5430|cd6d0926-ec70-4be3-adf6-786404615492",
-          ""
-        ],
-        [
           "copper_edge_clearance|23000000|99875000|3a723506-93c6-43de-b3a1-40686fe95418|a7a43c0f-894d-4056-bf66-d9880d7d0360",
-          ""
-        ],
-        [
-          "copper_edge_clearance|50000000|23000000|38c4da65-6db3-4f29-9522-3edeeb95af65|dda2d18d-ca78-4c0e-b312-4b5235e2593f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|50000000|65200000|38c4da65-6db3-4f29-9522-3edeeb95af65|cb9a9566-9790-4ec5-b2eb-a89ea469af66",
-          ""
-        ],
-        [
-          "copper_edge_clearance|50000000|96950000|38c4da65-6db3-4f29-9522-3edeeb95af65|09ace17a-1b66-4cf3-a7ff-6faad2df98c6",
           ""
         ]
       ],
@@ -144,11 +128,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.381,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -156,10 +140,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.16,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.46,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -210,13 +194,10 @@
       "track_widths": [
         0.0,
         0.1,
-        0.15,
+        0.16,
         0.2,
         0.32,
-        0.332,
-        0.364,
-        0.3686,
-        0.387,
+        0.3493,
         0.4,
         0.64,
         1.28,
