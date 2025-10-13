@@ -1,4 +1,4 @@
-25618578069294647
+25641594938084837
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59164,12 +59164,26 @@ FCU2025Lib
 16
 16
 FCU2025Lib
+8-PDFN (3x3)
+
+
+0
+6
+6
+FCU2025Lib
 ABM8-272-T3_ABR
 
 ABM8-272-T3 
 0
 4
 4
+FCU2025Lib
+ANT_GP.1575.18.4.A.02_TAL
+
+GP.1575.18.4.A.02 
+0
+1
+1
 FCU2025Lib
 APXK004A0XSRZ
 APXK004A0X-SRZ-2
@@ -59185,6 +59199,41 @@ BIGSWITCH
 2
 2
 FCU2025Lib
+CONN9_250-309_WAG
+
+250-309 
+0
+9
+9
+FCU2025Lib
+CONN_338068-6_TYC
+
+338068-6 
+0
+7
+7
+FCU2025Lib
+CUI_CPE-171
+
+
+0
+2
+2
+FCU2025Lib
+DFN_XGIQ TR_WIN
+
+W25Q64JVXGIQ TR 
+0
+9
+9
+FCU2025Lib
+DualLED0606
+
+
+0
+4
+4
+FCU2025Lib
 IMU Indicator
 
 
@@ -59198,6 +59247,20 @@ IND0806
 0
 2
 2
+FCU2025Lib
+MODULE_RFM95CW-868S2R
+
+
+0
+16
+16
+FCU2025Lib
+MosaicG5
+
+
+0
+94
+55
 FCU2025Lib
 PQFN50P300X250X97-14N
 
@@ -59227,6 +59290,13 @@ Undefined or Miscellaneous
 24
 24
 FCU2025Lib
+SON45P300X300X80-13N
+
+
+0
+13
+13
+FCU2025Lib
 TE_Connectivity-2199230-4-Handsolder
 
 
@@ -59247,6 +59317,27 @@ Untitled
 0
 0
 0
+FCU2025Lib
+Wio-SX1262
+
+
+0
+12
+12
+FCU2025Lib
+XDCR_ANT-916-JJB-RA
+
+
+0
+1
+1
+FCU2025Lib
+XDCR_CPT-7502-65-SMT-TR
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
