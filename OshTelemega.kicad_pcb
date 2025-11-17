@@ -379,11 +379,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C2655038"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ca6a1d5-a18c-4cb0-82ca-291b3488066f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DMR0004A DMR0004A_NV")
 		(path "/c91d3408-176b-4509-95f0-db83b329e5ff")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start 0.66 -0.81)
 			(end 0.66 0.81)
@@ -1364,11 +1376,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C131337"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a0896d8-83e6-4efd-b670-1371b4d030fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ecf621d3-d641-4304-ba12-90b91c0e31d2")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_line
 			(start -2.36 -2.11)
 			(end -2.36 -0.86)
@@ -1824,11 +1848,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C2843970"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4cbd75ca-9bad-4787-91d9-1b313d083a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/46158917-4aa0-47f5-822b-893ef80f8053")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -4.42 -2.17)
 			(end -4.42 -1.67)
@@ -2929,7 +2965,7 @@
 		(path "/70548c35-150f-467e-8ed7-88cd42234ebd")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -0.9 -0.35)
 			(end -0.9 0.8)
@@ -3462,11 +3498,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C2935954"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f40b3418-bd57-4bdb-9d69-da862f1e9edf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/7d7a3ab2-ed1e-468f-8d98-321a9caa859d")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_line
 			(start -1.18 -0.809999)
 			(end 0 -0.809999)
@@ -4304,11 +4352,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C2935951"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43b8c5ca-64f5-4de0-8223-0c25092b6ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/7f8b93ef-4f12-4899-bc08-afa015945276")
 		(sheetname "/")
 		(sheetfile "OshTelemega.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_line
 			(start -1.18 -0.809999)
 			(end 0 -0.809999)
