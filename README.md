@@ -1,7 +1,7 @@
 # Mega3080 v1.0
 
 
-The Mega3080 FCU is an evolved clone of the Altus Metrum Telemega. Using the same firmware (meaning same sensor suite), the primary developments are:
+The Mega3080 FCU is an evolved clone of the Altus Metrum Telemega. Using the same firmware (meaning the same sensor suite), the primary developments are:
 - USB-C
 - Wago style spring terminals
 - Better GPS RF routing, and external GPS antenna
@@ -13,13 +13,13 @@ The Mega3080 FCU is an evolved clone of the Altus Metrum Telemega. Using the sam
 
 ## Basic Manual
 
-All wago ports are the same as the Telemega screw terminals, except for the addition of a connector to select between either an external switch, or the internal mag switch (you could use both!)
+All Wago ports are the same as the Telemega screw terminals, except for the addition of a connector to select between an external switch and the internal mag switch (you can use both!).
 
 To enable the internal mag switch, bridge the terminals marked **MG**. A magnet's **N** pole perpendicular to the top surface magnetic sensor (under the square buzzer) arms the device. 
 
-A fully armed device has the dual-LED next to the mag sensor fully lit (green and red). To begin the disarm process, expose the sensor to a **S** pole, then a **N** pole, and then an **S** pole. This will cycle the LED lights and prevents any disarm risk from launch towers that may generate magnetic fields.
+A fully armed device has the dual-LED next to the mag sensor fully lit (green and red). To begin the disarm process, expose the sensor to a **S** pole, then a **N** pole, and then an **S** pole. This will cycle the LED lights. This feature prevents any risk of disarming from launch towers that may generate magnetic fields.
 
-If a device on the pad has a partially lit LED, the disarm process has started. It is recommended that a disarm and arming cycle be completed to reduce the risk of an inadvertent disarm; however, even in the started disarm process, the device is still just as, if not less, sensitive to magnetic fields as industry-standard altimeters.
+If a device on the pad has a partially lit LED, the disarm process has started. It is recommended that a disarm and arming cycle be completed to reduce the risk of inadvertent disarm; however, even during the disarm process, the device remains as, if not less, sensitive to stray magnetic fields as industry-standard altimeters.
 
 To use an external switch, simply wire it in series with the terminals marked **SW**. 
 
@@ -45,7 +45,7 @@ Recommended configuration is **JLC04161H-7628**. I recommend ENIG, but it's like
 ## Notes
 Use at your own risk! This device has not been validated as of Dec 2025, and custom production from JLC always carries the risk of QC issues. 
 
-You must provide your own patch antenna (preferably passive) to use the GPS
+You must provide your own patch antenna (preferably active) to use the GPS
 
 There are a few minor issues known with the v1.0 model: 
 
